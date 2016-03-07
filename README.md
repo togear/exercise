@@ -1,1 +1,2 @@
 # exercise
+some go program
