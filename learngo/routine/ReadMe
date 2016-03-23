@@ -1,0 +1,5 @@
+1. go_add.go  
+   use go routine to add a series of nums
+   
+2. routine_select.go
+  use routine to automatically generate 0 or 1
