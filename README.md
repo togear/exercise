@@ -1,2 +1,2 @@
 # exercise
-some go program
+go program
