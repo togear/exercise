@@ -1,29 +1,29 @@
 package quicksort
 
 func swap(A []int, i,j int) {
-	temp := A[j];
+	temp := A[j]
 	A[j] = A[i]
-	A[i] = temp;
+	A[i] = temp
 }
 
 func partition(A []int, start,end int) int {
-	i := start;
+	i := start
 	j := end;
-	pivot := A[start];
+	pivot := A[start]
 
 	for i<j {
 		for i <=j && A[i] <= pivot {
-			i++;
+			i++
 		}
 		for i <=j  && A[j] >= pivot {
-			j--;
+			j--
 		}
 		if(i < j) {
-			swap(A,i,j);
+			swap(A,i,j)
 		}
 	}
-	swap(A,start,j);
-	return j;
+	swap(A,start,j)
+	return j
 }
 
 func quickSort(A []int,s,e int)[]int {
@@ -32,7 +32,7 @@ func quickSort(A []int,s,e int)[]int {
 		quickSort(A,s,t-1)
 		quickSort(A,t+1,e)
 	}
-	return A;
+	return A
 }
 
 func QuickSort(unsorted []int) []int {
