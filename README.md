@@ -14,6 +14,7 @@ Table of Contents
     * [learngo](#learngo)
     * [algorithm](#algorithm)
     * [golib](#golib)
+    * [tools](#go_tools)
 * [Copyright and License](#copyright-and-licenskkkke)
 
 Status
@@ -44,6 +45,10 @@ algorithm
 golib
 ---
 `interesting go libs`
+
+tools
+---
+ useful collections
 
 
 [Back to TOC](#table-of-contents)
